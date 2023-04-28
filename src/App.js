@@ -1,5 +1,7 @@
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import Footer from "./pages/Footer";
+import Navigation from "./pages/Navigation";
 import Register from "./pages/Register";
 import "./style.scss";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
@@ -14,11 +16,12 @@ function App() {
       return <Navigate to="/login" />;
     }
 
-    return children
+    return children;
   };
 
   return (
     <BrowserRouter>
+      <Navigation />
       <Routes>
         <Route path="/">
           <Route
@@ -33,6 +36,7 @@ function App() {
           <Route path="register" element={<Register />} />
         </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

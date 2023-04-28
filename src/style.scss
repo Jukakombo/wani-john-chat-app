@@ -323,3 +323,26 @@
     }
   }
 }
+.footer{ 
+  padding: 20px;
+  text-align: center;
+  background-color: #7b96ec;
+  color: #ddddf7;
+}
+.navlogo{
+ display: flex;
+ align-items: center;
+ text-align: center;
+
+}
+.navigation__bar{
+  background-color: #7b96ec;
+padding: 20px;
+display: flex;
+justify-content: space-between;
+}
+.info__nav{
+  color: azure;
+  text-transform: uppercase;
+  font-weight: bold;
+}
