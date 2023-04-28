@@ -1,16 +1,22 @@
-import React from 'react'
-import Sidebar from '../components/Sidebar'
-import Chat from '../components/Chat'
+import React from "react";
+import Sidebar from "../components/Sidebar";
+import Chat from "../components/Chat";
+import Navigation from "./Navigation";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div className='home'>
-      <div className="container">
-        <Sidebar/>
-        <Chat/>
+    <>
+      <Navigation />
+      <div className="home">
+        <div className="container">
+          <Sidebar />
+          <Chat />
+        </div>
       </div>
-    </div>
-  )
-}
+      <Footer />
+    </>
+  );
+};
 
-export default Home
+export default Home;
