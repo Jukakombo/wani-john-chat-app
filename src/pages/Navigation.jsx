@@ -5,11 +5,11 @@ function Navigation() {
   const { currentUser } = useContext(AuthContext);
   return (
     <div className="navigation__bar">
+      <img style={{ width: "60px", marginRight: "15px" }} src={logo} alt="" />
       <div className="navlogo">
-        <img style={{ width: "60px", marginRight: "15px" }} src={logo} alt="" />
         <div className="info__nav">
           <p>University of Juba</p>
-          <p>Department of Computer Science</p>
+          <p className="title">Real Time Chat App</p>
         </div>
       </div>
       <div className="navlogo">
