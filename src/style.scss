@@ -106,7 +106,7 @@
     }
 
     .sidebar {
-      flex: 1;
+      flex: 30%;
       background-color: #3e3c61;
       position: relative;
 
@@ -202,7 +202,7 @@
       }
     }
     .chat {
-      flex: 2;
+      flex: 70%;
 
       .chatInfo {
         height: 50px;
